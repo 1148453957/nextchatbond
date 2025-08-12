@@ -17,6 +17,23 @@ export default function Home({ session, searchParams }: any) {
       style,
       container: Cookies.get("userId"),
     });
+    console.log(111111,gtag);
+    
+    gtag('event', 'screen_view', {
+      'app_name': 'myAppName',
+      'screen_name': 'Home',
+      'user_id': 'USER_ID'
+    });
+    gtag('event', 'qwe', {
+      'app_name': 'myAppName',
+      'screen_name': 'Home',
+      'user_id': 'USER_ID'
+    });
+    gtag('event', 'test2', {
+      'app_name': 'myAppName',
+      'screen_name': 'Home',
+      'user_id': 'USER_ID'
+    });
   };
   const stepList = [
     {

@@ -63,7 +63,7 @@ export default async function RootLayout({
       <Script
         async
         id="googletagmanager"
-        src="https://www.googletagmanager.com/gtag/js?id=G-W051S4P94D"
+        src="https://www.googletagmanager.com/gtag/js?id=G-SNWJ8BTHLZ"
       />
 
       <Script id="gtag">
@@ -74,7 +74,7 @@ export default async function RootLayout({
           }
           gtag('js', new Date())
         
-          gtag('config', 'G-W051S4P94D')
+          gtag('config', 'G-SNWJ8BTHLZ', { 'debug_mode':true })
         `}
       </Script>
       <Script type="application/ld+json" id="json">
